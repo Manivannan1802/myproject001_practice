@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="20.419" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Login" name="Successful login with valid credentials" time="20.225">
+<testsuite name="Cucumber" time="14.637" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login" name="Successful login with valid credentials" time="14.398">
 <system-out><![CDATA[
 Given user launch chrome browser............................................passed
 When user open url  "https://admin-demo.nopcommerce.com/login"..............passed
