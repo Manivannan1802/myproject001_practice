@@ -15,14 +15,12 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-		features="C:\\Users\\megal\\git\\myproject001_practice\\src\\test\\java\\feature\\login.feature",
+		features="C:\\Users\\megal\\git\\myproject001_practice\\Banking Feature\\NewCustomer.feature",
 		glue={"stepDefinitions"},
 		dryRun=false,
 		monochrome=true,// display console output in a proper readable format
 		
-				plugin = { "pretty", "json:target/cucumber-reports.json",
-						"junit:target/cucumber-reports.xml",
-						"html:target/cucumber-reports.html"}
+				plugin = { "pretty","html:target/cucumber-reports.html"}
 		//plugin = { "pretty", "html:target/cucumber-reports.html" }
 		)
 
